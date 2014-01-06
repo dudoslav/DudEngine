@@ -11,10 +11,15 @@ object Form1: TForm1
   OnKeyUp = FormKeyUp
   LCLVersion = '1.0.14.0'
   object Image1: TImage
+    Cursor = crNone
     Left = 7
     Height = 106
     Top = 6
     Width = 84
+    DragCursor = crNone
+    OnMouseDown = Image1MouseDown
+    OnMouseMove = Image1MouseMove
+    OnMouseUp = Image1MouseUp
   end
   object Timer1: TTimer
     Interval = 16
