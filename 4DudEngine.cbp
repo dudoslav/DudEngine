@@ -45,6 +45,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Linker>
+			<Add option="-lglu32" />
+			<Add option="-lopengl32" />
+		</Linker>
 		<Unit filename="include/model.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/model.cpp" />

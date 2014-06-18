@@ -326,3 +326,21 @@
 	<istream>
 	<string>
 
+1403028234 source:d:\workspace\c++\dudengine\main.cpp
+	<iostream>
+	"SDL2/SDL.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	"include/model.h"
+
+1403028388 source:d:\workspace\c++\dudengine\src\model.cpp
+	"model.h"
+
+1403028338 d:\workspace\c++\dudengine\include\model.h
+	<vector>
+	<fstream>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string>
+	<iostream>
+
